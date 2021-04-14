@@ -4,7 +4,7 @@ public class Location
 {
 	 private int age = 21;
 	 private String fName= "Gundi";	 
-	 private String lName= "Ballo";
+	
 	
 	 
 	 public int getAge() {
@@ -23,12 +23,5 @@ public class Location
 	 public void setFName(String newFName) {
 		 this.fName=newFName;
 	 }
-	 
-	 public String getLName() {
-		return lName;
-		 }
 
-	 public void setLName(String newLName) {
-		this.lName=newLName;
-	 }
 }
